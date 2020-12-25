@@ -4,4 +4,5 @@
 <p>プロジェクトファイル直下で<code>docker-compose up -d</code>をする（ログを見たいときは-dを外す）</p>
 <p>コンテナが起動したら、以下のコマンドを実行する</p>
 <p><code>docker-compose exec php bash</code></p>
+<p><code>chmod -R 777 laravel/storage</code></p>
 <p>以上</p>

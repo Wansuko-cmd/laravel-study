@@ -21,3 +21,4 @@ Route::get('/hello/{name}', function($name){
     return view('hello', ['name' => $name]);
 });
 
+Route::resource('book', 'BookController');
